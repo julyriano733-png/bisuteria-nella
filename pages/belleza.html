@@ -4,271 +4,166 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bisutería Nella</title>
+    <title>Belleza - Bisutería Nella</title>
     <meta name="author" content="Daniela Riaño Soto">
-    <meta name="description" content="Página web de bisutería de todos los tipos y otros productos femeninos">
-    <meta name="keywords" content="bisutería, manillas, collares, chicas, chicos, regalos, personalizado">
-    <meta name="application-name" content="Bisutería Nella">
-    <!-- cuando publiques la página, borra la línea de abajo -->
+    <meta name="description" content="Productos de belleza y accesorios para el cabello de Bisutería Nella">
     <meta name="robots" content="noindex,nofollow">
 
-    <!-- primero Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <!-- después mi CSS -->
-    <link rel="stylesheet" href="assets/css/inicio.css">
+    <link rel="stylesheet" href="../assets/css/inicio.css">
 </head>
 
 <body>
 
-    <!-- MENU -->
     <header class="barra">
-        <img src="assets/img/logo.jpeg" alt="Logo de Nella" class="logo">
+        <img src="../assets/img/logo.jpeg" alt="Logo de Nella" class="logo">
         <nav>
             <ul class="menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="pages/aretes.html">Aretes</a></li>
-                <li><a href="pages/collares.html">Collares</a></li>
-                <li><a href="pages/belleza.html">Belleza</a></li>
-                <li><a href="pages/promociones.html">Promociones</a></li>
-                <li><a href="pages/contacto.html">Contáctame</a></li>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="aretes.html">Aretes</a></li>
+                <li><a href="collares.html">Collares</a></li>
+                <li><a href="belleza.html">Belleza</a></li>
+                <li><a href="promociones.html">Promociones</a></li>
+                <li><a href="contacto.html">Contáctame</a></li>
             </ul>
         </nav>
     </header>
 
-    <h1 class="visually-hidden">Bisutería Nella</h1>
-
-    <!-- CARRUSEL -->
-    <div id="carouselExample" class="carousel slide mb-5" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="assets/img/1.jpeg" class="d-block w-100" alt="Manillas de Nella">
-            </div>
-            <div class="carousel-item">
-                <img src="assets/img/2.jpeg" class="d-block w-100" alt="Colgante de gafas de Nella">
-            </div>
-            <div class="carousel-item">
-                <img src="assets/img/3.png" class="d-block w-100" alt="Pulseras de Nella">
-            </div>
-        </div>
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Siguiente</span>
-        </button>
-    </div>
-
-    <!-- PRODUCTOS -->
     <main class="container py-4">
 
-        <h2 class="text-center titulo">Nuestras manillas</h2>
+        <h1 class="text-center titulo">Belleza</h1>
 
-        <div class="row manillas">
+        <div class="row">
 
-            <!-- manilla 1 -->
+            <!-- producto 1 -->
             <div class="col-6 col-md-3 mb-3 text-center">
                 <figure class="card-interactive m-0">
-                    <img src="assets/img/1.jpeg" class="img-fluid" alt="Tres manillas de hilo chino" loading="lazy">
+                    <img src="../assets/img/31.jpeg" class="img-fluid" alt="Producto de belleza 1" loading="lazy">
                 </figure>
                 <button class="btn btn-dark boton-mas" type="button"
                     data-bs-toggle="collapse" data-bs-target="#info1"
                     aria-expanded="false" aria-controls="info1">+</button>
                 <div class="collapse mt-2" id="info1">
                     <div class="card card-body text-start small p-2">
-                        Material: tres manillas realizadas con hilo chino <br>
-                        Inserción de pepas de Colombia y cristalizadas <br>
-                        Artesanales, hechas a mano
+                        Producto: escribe aquí el nombre <br>
+                        Detalle: escribe aquí la información
                     </div>
                 </div>
             </div>
 
-            <!-- manilla 2 -->
+            <!-- producto 2 -->
             <div class="col-6 col-md-3 mb-3 text-center">
                 <figure class="card-interactive m-0">
-                    <img src="assets/img/2.jpeg" class="img-fluid" alt="Colgante de gafas con pepas de vidrio" loading="lazy">
+                    <img src="../assets/img/32.jpeg" class="img-fluid" alt="Producto de belleza 2" loading="lazy">
                 </figure>
                 <button class="btn btn-dark boton-mas" type="button"
                     data-bs-toggle="collapse" data-bs-target="#info2"
                     aria-expanded="false" aria-controls="info2">+</button>
                 <div class="collapse mt-2" id="info2">
                     <div class="card card-body text-start small p-2">
-                        Material: colgante de gafas realizado a partir de cadena de aluminio con acabados
-                        de pepas de vidrio
+                        Producto: escribe aquí el nombre <br>
+                        Detalle: escribe aquí la información
                     </div>
                 </div>
             </div>
 
-            <!-- manilla 3 -->
+            <!-- producto 3 -->
             <div class="col-6 col-md-3 mb-3 text-center">
                 <figure class="card-interactive m-0">
-                    <img src="assets/img/6.jpeg" class="img-fluid" alt="Manilla de mostacillas plásticas" loading="lazy">
+                    <img src="../assets/img/33.jpeg" class="img-fluid" alt="Producto de belleza 3" loading="lazy">
                 </figure>
                 <button class="btn btn-dark boton-mas" type="button"
                     data-bs-toggle="collapse" data-bs-target="#info3"
                     aria-expanded="false" aria-controls="info3">+</button>
                 <div class="collapse mt-2" id="info3">
                     <div class="card card-body text-start small p-2">
-                        Material: manilla de mostacillas plásticas
+                        Producto: escribe aquí el nombre <br>
+                        Detalle: escribe aquí la información
                     </div>
                 </div>
             </div>
 
-            <!-- manilla 4 -->
+            <!-- producto 4 -->
             <div class="col-6 col-md-3 mb-3 text-center">
                 <figure class="card-interactive m-0">
-                    <img src="assets/img/4.jpeg" class="img-fluid" alt="Colgante de gafas de cadena de aluminio" loading="lazy">
+                    <img src="../assets/img/34.jpeg" class="img-fluid" alt="Producto de belleza 4" loading="lazy">
                 </figure>
                 <button class="btn btn-dark boton-mas" type="button"
                     data-bs-toggle="collapse" data-bs-target="#info4"
                     aria-expanded="false" aria-controls="info4">+</button>
                 <div class="collapse mt-2" id="info4">
                     <div class="card card-body text-start small p-2">
-                        Material: colgante de gafas hecho a partir de cadena de aluminio y pepas de vidrio
+                        Producto: escribe aquí el nombre <br>
+                        Detalle: escribe aquí la información
+                    </div>
+                </div>
+            </div>
+<!-- producto 4 -->
+            <div class="col-6 col-md-3 mb-3 text-center">
+                <figure class="card-interactive m-0">
+                    <img src="../assets/img/35.jpeg" class="img-fluid" alt="Producto de belleza 4" loading="lazy">
+                </figure>
+                <button class="btn btn-dark boton-mas" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#info4"
+                    aria-expanded="false" aria-controls="info4">+</button>
+                <div class="collapse mt-2" id="info4">
+                    <div class="card card-body text-start small p-2">
+                        Producto: escribe aquí el nombre <br>
+                        Detalle: escribe aquí la información
+                    </div>
+                </div>
+            </div>
+<!-- producto 4 -->
+            <div class="col-6 col-md-3 mb-3 text-center">
+                <figure class="card-interactive m-0">
+                    <img src="../assets/img/36.jpeg" class="img-fluid" alt="Producto de belleza 4" loading="lazy">
+                </figure>
+                <button class="btn btn-dark boton-mas" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#info4"
+                    aria-expanded="false" aria-controls="info4">+</button>
+                <div class="collapse mt-2" id="info4">
+                    <div class="card card-body text-start small p-2">
+                        Producto: escribe aquí el nombre <br>
+                        Detalle: escribe aquí la información
+                    </div>
+                </div>
+            </div>
+<!-- producto 4 -->
+            <div class="col-6 col-md-3 mb-3 text-center">
+                <figure class="card-interactive m-0">
+                    <img src="../assets/img/37.jpeg" class="img-fluid" alt="Producto de belleza 4" loading="lazy">
+                </figure>
+                <button class="btn btn-dark boton-mas" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#info4"
+                    aria-expanded="false" aria-controls="info4">+</button>
+                <div class="collapse mt-2" id="info4">
+                    <div class="card card-body text-start small p-2">
+                        Producto: escribe aquí el nombre <br>
+                        Detalle: escribe aquí la información
                     </div>
                 </div>
             </div>
 
-            <!-- manilla 5 -->
-            <div class="col-6 col-md-3 mb-3 text-center">
-                <figure class="card-interactive m-0">
-                    <img src="assets/img/5.jpeg" class="img-fluid" alt="Manilla de hilo chino negro con nombre" loading="lazy">
-                </figure>
-                <button class="btn btn-dark boton-mas" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#info5"
-                    aria-expanded="false" aria-controls="info5">+</button>
-                <div class="collapse mt-2" id="info5">
-                    <div class="card card-body text-start small p-2">
-                        Material: hilo chino negro y pepas con nombre grabado
-                    </div>
-                </div>
-            </div>
 
-            <!-- manilla 6 -->
-            <div class="col-6 col-md-3 mb-3 text-center">
-                <figure class="card-interactive m-0">
-                    <img src="assets/img/7.jpeg" class="img-fluid" alt="Aretes de mostacilla amarilla con flores" loading="lazy">
-                </figure>
-                <button class="btn btn-dark boton-mas" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#info6"
-                    aria-expanded="false" aria-controls="info6">+</button>
-                <div class="collapse mt-2" id="info6">
-                    <div class="card card-body text-start small p-2">
-                        Material: aretes de mostacilla amarilla opaca <br>
-                        Diseño: flores
-                    </div>
-                </div>
-            </div>
 
-            <!-- manilla 7 -->
-            <div class="col-6 col-md-3 mb-3 text-center">
-                <figure class="card-interactive m-0">
-                    <img src="assets/img/8.jpeg" class="img-fluid" alt="Mix de manillas de hilo chino negro" loading="lazy">
-                </figure>
-                <button class="btn btn-dark boton-mas" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#info7"
-                    aria-expanded="false" aria-controls="info7">+</button>
-                <div class="collapse mt-2" id="info7">
-                    <div class="card card-body text-start small p-2">
-                        Material: hilo chino negro y romo, donde se combina y se arma un mix de manillas
-                    </div>
-                </div>
-            </div>
 
-            <!-- manilla 8 -->
-            <div class="col-6 col-md-3 mb-3 text-center">
-                <figure class="card-interactive m-0">
-                    <img src="assets/img/9.jpeg" class="img-fluid" alt="Manilla de hilo chino amarillo, azul y rojo" loading="lazy">
-                </figure>
-                <button class="btn btn-dark boton-mas" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#info8"
-                    aria-expanded="false" aria-controls="info8">+</button>
-                <div class="collapse mt-2" id="info8">
-                    <div class="card card-body text-start small p-2">
-                        Material: hilo chino tres colores, amarillo, azul y rojo <br>
-                        Diseño: Colombia
-                    </div>
-                </div>
-            </div>
 
-            <!-- manilla 9 -->
-            <div class="col-6 col-md-3 mb-3 text-center">
-                <figure class="card-interactive m-0">
-                    <img src="assets/img/10.jpeg" class="img-fluid" alt="Manilla personalizada de hilo chino negro" loading="lazy">
-                </figure>
-                <button class="btn btn-dark boton-mas" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#info9"
-                    aria-expanded="false" aria-controls="info9">+</button>
-                <div class="collapse mt-2" id="info9">
-                    <div class="card card-body text-start small p-2">
-                        Material: hilo chino color negro <br>
-                        Diseño: personalizado
-                    </div>
-                </div>
-            </div>
 
-            <!-- manilla 10 -->
-            <div class="col-6 col-md-3 mb-3 text-center">
-                <figure class="card-interactive m-0">
-                    <img src="assets/img/12.jpeg" class="img-fluid" alt="Manilla de mostacillas de colores" loading="lazy">
-                </figure>
-                <button class="btn btn-dark boton-mas" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#info10"
-                    aria-expanded="false" aria-controls="info10">+</button>
-                <div class="collapse mt-2" id="info10">
-                    <div class="card card-body text-start small p-2">
-                        Material: mostacilla de colores mix <br>
-                        Diseño: nude claro
-                    </div>
-                </div>
-            </div>
 
-            <!-- manilla 11 -->
-            <div class="col-6 col-md-3 mb-3 text-center">
-                <figure class="card-interactive m-0">
-                    <img src="assets/img/13.jpeg" class="img-fluid" alt="Manilla de hilo chino de la colección Colombia" loading="lazy">
-                </figure>
-                <button class="btn btn-dark boton-mas" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#info11"
-                    aria-expanded="false" aria-controls="info11">+</button>
-                <div class="collapse mt-2" id="info11">
-                    <div class="card card-body text-start small p-2">
-                        Material: hilo chino tres colores <br>
-                        Diseño: colección Colombia
-                    </div>
-                </div>
-            </div>
 
-            <!-- manilla 12 -->
-            <div class="col-6 col-md-3 mb-3 text-center">
-                <figure class="card-interactive m-0">
-                    <img src="assets/img/14.jpeg" class="img-fluid" alt="Colgante de gafas dark negro y dorado" loading="lazy">
-                </figure>
-                <button class="btn btn-dark boton-mas" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#info12"
-                    aria-expanded="false" aria-controls="info12">+</button>
-                <div class="collapse mt-2" id="info12">
-                    <div class="card card-body text-start small p-2">
-                        Material: mostacillas negras y doradas de diferente calibre <br>
-                        Diseño: colgante de gafas dark
-                    </div>
-                </div>
-            </div>
+
+
+
 
         </div>
-       
 
-        <!-- boton de WhatsApp -->
         <div class="text-center my-4">
-            <a href="https://wa.me/3205886961" class="btn ">Pedir por WhatsApp</a>
+            <a href="https://wa.me/57TUNUMERO" class="btn btn-dark">Pedir por WhatsApp</a>
         </div>
 
     </main>
 
-    <!-- PIE DE PAGINA -->
     <footer class="text-center py-3 pie">
         <p class="mb-0">&copy; 2026 Nella</p>
     </footer>
