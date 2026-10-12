@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@500&display=swap');
+
+/* colores de Nella */
+:root {
+    --rosado-claro: #fdeeee;
+    --rosado: #e8a5a5;
+    --rosado-oscuro: #c97b84;
+    --texto: #4a3f3f;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--rosado-claro);
+    color: var(--texto);
+}
+
+/* menu de arriba */
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 30px;
+    background-color: var(--rosado);
+}
+
+.logo {
+    height: 60px;
+    border-radius: 50%;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* carrusel */
+.carousel-item img {
+    height: 350px;
+    object-fit: cover;
+}
+
+/* titulo */
+.titulo {
+    font-family: 'Playfair Display', serif;
+    color: var(--rosado-oscuro);
+    margin-bottom: 25px;
+}
+
+/* fotos de las manillas */
+.card-interactive {
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.card-interactive img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.card-interactive:hover img {
+    transform: scale(1.05);
+}
+
+/* boton + */
+.boton-mas {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin-top: 8px;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 22px;
+    background-color: var(--rosado-oscuro);
+    border: none;
+}
+
+/* cajita de informacion */
+.card-body {
+    background-color: white;
+    font-size: 14px;
+}
+
+/* footer */
+.pie {
+    background-color: var(--rosado);
+    color: white;
+}
+
+/* celular */
+@media (max-width: 700px) {
+    .barra {
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .menu {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .carousel-item img {
+        height: 200px;
+    }
+
+    .card-interactive img {
+        height: 180px;
+    }
+}
