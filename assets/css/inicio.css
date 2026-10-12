@@ -1,0 +1,60 @@
+.carousel {
+    width: 100%;     /* de lado a lado de la página */
+    margin: 0;
+}
+
+.carousel img {
+    width: 100%;
+    height: 300px;       /* esto la hace más delgada */
+    object-fit: cover;   /* recorta la foto en vez de estirarla */
+}
+
+body {
+    background-color: #fde4ec; /* fondo rosado suave */
+}
+
+.barra {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin: 15px 20px;
+    padding: 10px 30px;
+    border-radius: 40px;                      /* esquinas redondeadas tipo píldora */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 28px;
+    color: #e75480;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;   /* quita los números */
+    display: flex;      /* pone los links en fila */
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #444;
+    font-size: 15px;
+}
+
+.menu a:hover {
+    color: #e75480;
+}
+.logo {
+    height: 70px;   /* altura del logo */
+    width: auto;    /* el ancho se ajusta solo para que no se deforme */
+}
+.manillas img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+     border-radius: 90px;
+}
