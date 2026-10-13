@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@500&display=swap');
 
-/* colores de Nella */
+/* mis colores */
 :root {
     --rosado-claro: #fdeeee;
     --rosado: #e8a5a5;
@@ -14,7 +14,7 @@ body {
     color: var(--texto);
 }
 
-/* menu de arriba */
+/* menu */
 .barra {
     display: flex;
     justify-content: space-between;
@@ -49,18 +49,24 @@ body {
 
 /* carrusel */
 .carousel-item img {
-    height: 350px;
+    height: 500px;
     object-fit: cover;
 }
 
-/* titulo */
+/* la foto del logo se ve completa */
+.carousel-item img.img-completa {
+    object-fit: contain;
+    background-color: white;
+}
+
+/* titulos */
 .titulo {
     font-family: 'Playfair Display', serif;
     color: var(--rosado-oscuro);
     margin-bottom: 25px;
 }
 
-/* fotos de las manillas */
+/* fotos de los productos */
 .card-interactive {
     overflow: hidden;
     border-radius: 15px;
@@ -90,10 +96,33 @@ body {
     border: none;
 }
 
-/* cajita de informacion */
+/* cajita con la informacion */
 .card-body {
     background-color: white;
     font-size: 14px;
+}
+
+/* promociones: fotos de las tarjetas */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* promociones: etiqueta de descuento */
+.oferta {
+    display: inline-block;
+    padding: 3px 12px;
+    border-radius: 20px;
+    background-color: var(--rosado-oscuro);
+    color: white;
+    font-size: 14px;
+}
+
+/* contacto: cajas blancas */
+.formulario {
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
 }
 
 /* footer */
@@ -108,23 +137,13 @@ body {
         justify-content: center;
         padding: 10px;
     }
-}
 
-.menu {
-    justify-content: center;
-    gap: 12px;
-}
+    .menu {
+        justify-content: center;
+        gap: 12px;
+    }
 
-.carousel-item img {
-    height: 200px;
-}
-
-.card-interactive img {
-    height: 180px;
-}
-
-/* foto se ve completa*/
-.carousel-item img.img-completa {
-    object-fit: contain;
-    background-color: rgb(255, 255, 255);
+    .card-interactive img {
+        height: 180px;
+    }
 }
