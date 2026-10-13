@@ -108,17 +108,23 @@ body {
         justify-content: center;
         padding: 10px;
     }
+}
 
-    .menu {
-        justify-content: center;
-        gap: 12px;
-    }
+.menu {
+    justify-content: center;
+    gap: 12px;
+}
 
-    .carousel-item img {
-        height: 200px;
-    }
+.carousel-item img {
+    height: 200px;
+}
 
-    .card-interactive img {
-        height: 180px;
-    }
+.card-interactive img {
+    height: 180px;
+}
+
+/* foto se ve completa*/
+.carousel-item img.img-completa {
+    object-fit: contain;
+    background-color: rgb(255, 255, 255);
 }
